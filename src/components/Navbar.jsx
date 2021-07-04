@@ -17,7 +17,7 @@ const Navbar = () => {
         {/* 1st logo part  */}
         <div className="logo">
           <h2>
-            <span>M</span>y
+            <span>m</span>y
             <span>A</span>pp
           </h2>
         </div>
@@ -29,16 +29,16 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <a to="/">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a to="/about">about</a>
+              <NavLink to="/about">about</NavLink>
             </li>
             <li>
-              <a to="/service">services</a>
+              <NavLink to="/service">services</NavLink>
             </li>
             <li>
-              <a to="/contact">contact</a>
+              <NavLink to="/contact">contact</NavLink>
             </li>
           </ul>
         </div>
@@ -48,21 +48,21 @@ const Navbar = () => {
           <ul className="social-media-desktop">
             <li>
               <a
-                href="https://www.facebook.com/sumon000"
+                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
                 target="_thapa">
                 <FaFacebookSquare className="facebook" />
               </a>
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/thapatechnical/"
                 target="_thapa">
                 <FaInstagramSquare className="instagram" />
               </a>
             </li>
             <li>
               <a
-                href="https://www.youtube.com/user/sumon0002001/videos"
+                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
                 target="_thapa">
                 <FaYoutubeSquare className="youtube" />
               </a>
